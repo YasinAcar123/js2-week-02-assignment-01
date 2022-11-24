@@ -15,22 +15,8 @@ const filterNumbers = (pArr) => {
   return result
 };
 
-const generateEmailAddress = () => {
-/*let email="";
-
-for (let index = 0; index < generateEmailAddress.length; index++) {
-   counter++
-   generateEmailAddress[index]=generateEmailAddress[index].trim().toLowerCase().slice(0,counter)
-   
-   email= email + generateEmailAddress[index]
-   if  {
-      emails.push(email.concat("@gmail.com"))
-      email=""
-   
-   }
-
- }
-console.log(emails)*/
+const generateEmailAddress = (pArr) => {
+  let result=pArr.map((item)=> {return item.toLowerCase()+"@gmail.com"})
 };
 
 export {
